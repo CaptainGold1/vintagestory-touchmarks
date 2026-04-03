@@ -677,3 +677,6 @@ fabric.properties
 # Ignore cakebuild
 
 ZZCakeBuild/
+build.ps1
+build.sh
+Touchmarks.sln
