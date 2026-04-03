@@ -1,5 +1,9 @@
 Add support for touchmarks on armor
 Sync config for behaviors from server to client
 Uhh maybe adding a tag to stampable items instead of rerunning the check all the time?
+Allow destroying used hand stamps to prevent stealing
+Add config options for durability and restricting hand stamps (learn how to use config lib, probably)
+
+Later down the line - add embroidered tags for tailored clothes
 
 Holy crap it has out of the box compat for Toolsmith that's neato :D

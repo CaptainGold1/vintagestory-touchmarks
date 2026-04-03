@@ -21,5 +21,10 @@
 
     "error-stampingtable-needhammer": "Requires a hammer in the offhand.",
     "error-stampingtable-alreadystamped": "This item already bears a touchmark, you cannot add another.",
-    "error-stampingtable-notstampable": "You cannot stamp a touchmark in this item."
+    "error-stampingtable-notstampable": "You cannot stamp a touchmark in this item.",
+
+
+    // HANDBOOK
+    "handbook-handstamps-title": "Touchmarks - Hand Stamps",
+    "handbook-handstamps-text": "<strong>Hand Stamps</strong><br/><i>Leave your mark</i><br/><br/><a href='handbook://item-touchmarks:handstamp-iron'>Hand Stamps</a> (also known as touchmarks) let you leave your unique touchmark on a piece of work, allowing you to claim permanent ownership over your work.<br/><br/>To start, craft a hand stamp out of an iron, meteoric iron, or steel ingot. Iron stamps will last for 50 stampings, meteoric iron for 75, and steel for 200. This means an iron hand stamp will last quite some time, but it may be worth the upgrade to steel if you serve as a guild or village's dedicated smith. Once you craft your hand stamp, you should be able to note in the description that it bears your touchmark.<br/><br/>Next, you'll need to craft and place a <a href='handbook://block-touchmarks:stampingtable-north'>Stamping Table</a>.<br/><br/>Now, procure a piece of stampable work. This includes all metal tools and weapons, both in head and fully assembled form, and arrows. Stamped heads will transfer their touchmark when crafted into tools, but you can also use your touchmark directly on crafted tools. Hold shift to place the item into the stamping table, then equip your hand stamp in the main hand and a hammer in the offhand, and hold <hk>rightmouse</hk>.<br/><br/>If you check the description of the resulting item, you'll see that it has been stamped with your touchmark! Congratulations!"
 }

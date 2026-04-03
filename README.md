@@ -1,1 +1,4 @@
 # Touchmarks
+Touchmarks is a Vintage Story, roleplay-enhancing mod that allows blacksmiths to claim ownership of their work in a unique and immersive way. Smith a hand stamp from iron or steel, then take your piece of work to a stamping table to inscribe your touchmark in it. This will append your username to the description of the item, which will be preserved when crafted into a tool. In addition, you can directly stamp touchmarks into the tool itself after crafting, if you please.
+
+But, be careful! Hand stamps permanently bear your unique touchmark. If stolen, it can allow others to steal and pass off work as yours! This can be configured in settings (NOTE: Not right now, but should will be upon v0.1.0 release), if desired. In addition, you can restrict usage, crafting, or both usage and crafting of touchmarks to classes with certain traits, if you'd like to restrict touchmark usage to only your smiths.
