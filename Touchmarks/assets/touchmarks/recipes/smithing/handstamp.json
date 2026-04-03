@@ -1,0 +1,21 @@
+{
+    "ingredient": {
+        "type": "item",
+        "code": "game:ingot-*",
+        "name": "metal",
+        "allowedVariants": [ "iron", "meteoriciron", "steel" ]
+    },
+    "pattern": [
+        [
+            "________###____",
+            "_##########____",
+            "________###____"
+        ]
+    ],
+    "name": "handstamp",
+    "output": {
+        "type": "item",
+        "code": "touchmarks:handstamp-{metal}",
+        "stacksize":  1
+    }
+}

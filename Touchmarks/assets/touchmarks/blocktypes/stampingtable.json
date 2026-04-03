@@ -1,0 +1,98 @@
+{
+    "code": "stampingtable",
+    "class": "touchmarks:BlockStampingTable",
+    "entityClass": "touchmarks:BlockEntityStampingTable",
+    "behaviors": [
+        { "name": "UnstableFalling" },
+        { "name": "HorizontalOrientable" }
+    ],
+    "variantgroups": [
+        {
+            "code": "side",
+            "loadFromProperties": "abstract/horizontalorientation"
+        }
+    ],
+    "attributes": {
+        "humanoidTraversalCost": 100,
+        "handbook": {
+            "groupby": [ "stampingtable-*" ]
+        }
+    },
+    "shapeByType": {
+        "*-north": {
+            "base": "game:block/wood/table",
+            "rotateY": 0
+        },
+        "*-east": {
+            "base": "game:block/wood/table",
+            "rotateY": 270
+        },
+        "*-south": {
+            "base": "game:block/wood/table",
+            "rotateY": 180
+        },
+        "*-west": {
+            "base": "game:block/wood/table",
+            "rotateY": 90
+        }
+    },
+    "heldTpIdleAnimation": "holdunderarm",
+    "creativeinventory": {
+        "general": [ "*-north" ]
+    },
+    "blockmaterial": "Wood",
+    "replaceable": 900,
+    "resistance": 1.5,
+    "lightAbsorption": 1,
+    "maxStackSize": 1,
+    "sidesolid": {
+        "up": true,
+        "all": false
+    },
+    "sideopaque": {
+        "up": true,
+        "all": false
+    },
+    "sounds": {
+        "place": "game:block/planks",
+        "hit": "game:block/planks",
+        "break": "game:block/planks",
+        "walk": "game:walk/wood"
+    },
+    "combustibleProps": {
+        "burnTemperature": 600,
+        "burnDuration": 35
+    },
+    "textures": {
+        "sides": { "base": "game:block/wood/table/normal/sides" },
+        "top": { "base": "game:block/wood/table/normal/top" },
+        "bottom": { "base": "game:block/wood/table/normal/bottom" },
+        "legs": { "base": "game:block/wood/table/normal/legs" }
+    },
+    "materialDensity": 400,
+    "tpHandTransform": {
+        "translation": {
+            "x": -0.7,
+            "y": -0.6,
+            "z": -0.9
+        },
+        "rotation": {
+            "x": 80,
+            "y": 0,
+            "z": 0
+        },
+        "scale": 0.56
+    },
+    "fpHandTransform": {
+        "translation": {
+            "x": 0.08,
+            "y": -0.2,
+            "z": 0.6
+        },
+        "rotation": {
+            "x": 33,
+            "y": 134,
+            "z": -102
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "type": "code",
+    "modid": "touchmarks",
+    "name": "Touchmarks",
+    "authors": [
+        "CaptainGold1"
+    ],
+    "description": "Adds touchmarks to stamp smithed items with your signature.",
+    "version": "0.0.1"
+}

@@ -1,0 +1,104 @@
+{
+    "code": "handstamp",
+    "attributes": {
+        "heldItemPitchFollow": 1,
+        "alwaysPlayHeldReady": true,
+        "groundStorageTransform": {
+            "translation": {
+                "x": 0,
+                "y": -0.06,
+                "z": -0.01
+            },
+            "rotation": {
+                "x": 25,
+                "y": 90,
+                "z": -90
+            }
+        }
+    },
+    "behaviors": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "WallHalves",
+                "wallOffY": 1,
+                "ctrlKey": false,
+                "selectionBox": {
+                    "x1": 0,
+                    "y1": 0,
+                    "z1": 0,
+                    "x2": 1,
+                    "y2": 0.1,
+                    "z2": 1
+                },
+                "collisionBox": {
+                    "x1": 0,
+                    "y1": 0,
+                    "z1": 0,
+                    "x2": 0,
+                    "y2": 0,
+                    "z2": 0
+                }
+            }
+        }
+    ],
+    "creativeinventory": {
+        "general": [
+            "*"
+        ]
+    },
+    "variantGroups": [
+        {
+            "code": "metal",
+            "states": [ "iron", "meteoriciron", "steel" ]
+        }
+    ],
+    "shape": {
+        "base": "item/stamp"
+    },
+    "texture": {
+        "base": "game:block/metal/ingot/{metal}"
+    },
+    "heldRightReadyAnimation": "chiselready",
+    "guiTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 4,
+            "y": 137,
+            "z": -53
+        },
+        "origin": {
+            "x": 0.48,
+            "y": 0,
+            "z": 0.4
+        },
+        "scale": 3.26
+    },
+    "tpHandTransform": {
+        "translation": {
+            "x": -0.65,
+            "y": 0.04,
+            "z": -0.66
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": -170
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0.5
+        },
+        "scale": 0.76
+    },
+    "durabilityByType": {
+        "*-iron": 50,
+        "*-meteoriciron": 75,
+        "*-steel": 200
+    }
+}

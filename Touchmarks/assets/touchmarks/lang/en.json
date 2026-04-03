@@ -1,0 +1,25 @@
+{
+    "game:tabname-touchmarks": "Touchmarks",
+
+    // DESCRIPTION APPENDS
+    "description-touchmarkowner": "This stamp bears the touchmark of <font color={1}><strong>{0}</strong></font>.",
+    "description-touchmarked": "This tool has been stamped with the touchmark of <font color={1}><strong>{0}</strong></font>.",
+
+    // HAND STAMPS
+    "item-handstamp-iron": "Iron Hand Stamp",
+    "item-handstamp-steel": "Steel Hand Stamp",
+    "item-handstamp-meteoriciron": "Meteoric Iron Hand Stamp",
+
+    "itemcraftdesc-handstamp-*": "Used to stamp your work with a unique, identifying touchmark",
+
+    // STAMPING TABLE
+    "block-stampingtable-*": "Stamping Table",
+
+    "blockhelp-stampingtable-additem": "Add Item",
+    "blockhelp-stampingtable-removeitem": "Remove Item",
+    "blockhelp-stampingtable-stampitem": "Stamp Item (Requires Hammer in Offhand)",
+
+    "error-stampingtable-needhammer": "Requires a hammer in the offhand.",
+    "error-stampingtable-alreadystamped": "This item already bears a touchmark, you cannot add another.",
+    "error-stampingtable-notstampable": "You cannot stamp a touchmark in this item."
+}

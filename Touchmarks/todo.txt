@@ -1,0 +1,5 @@
+Add support for touchmarks on armor
+Sync config for behaviors from server to client
+Uhh maybe adding a tag to stampable items instead of rerunning the check all the time?
+
+Holy crap it has out of the box compat for Toolsmith that's neato :D

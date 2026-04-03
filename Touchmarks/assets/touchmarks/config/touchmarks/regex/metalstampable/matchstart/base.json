@@ -1,0 +1,33 @@
+[
+    // Tools
+    "axe-felling",
+    "hammer",
+    "hoe",
+    "knife",
+    "pickaxe",
+    "prospectingpick",
+    "saw",
+    "scythe",
+    "shovel",
+    "chisel",
+    "cleaver",
+    "shears",
+    "wrench",
+    "blade",
+
+    // Tool heads
+    "axehead",
+    "hammerhead",
+    "hoehead",
+    "knifeblade",
+    "pickaxehead",
+    "prospectingpickhead",
+    "sawblade",
+    "scythehead",
+    "shovelhead",
+    "spearhead",
+
+    // Miscellaneous
+    "arrow",
+    "arrowhead",
+]
